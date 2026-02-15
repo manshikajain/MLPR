@@ -2,8 +2,7 @@
 
 ## Aim
 
-The aim of this project is to detect faces from an image using Haar Cascade Classifier, classify the detected faces into clusters using K-Means clustering based on HSV color features and predict for a new face based on them.
-
+The aim of this project is to detect faces from an image using a Haar Cascade classifier, cluster the detected faces using K-Means clustering based on HSV color features, and predict the cluster of a template face using the trained model.
 ---
 
 ## Methodology

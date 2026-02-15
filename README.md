@@ -1,4 +1,3 @@
-# MLPR
 # Face Detection and Clustering using K-Means
 
 ## Aim
@@ -33,6 +32,12 @@ The aim of this project is to detect faces from an image using Haar Cascade Clas
 
 ## Results & Visualisation
 
+### Face Detection Output
+
+![Detected Faces](output_faces.jpg)
+
+---
+
 ### Clustering Plots
 
 ![Clustered Faces Plot](faces_clustered.png)
@@ -42,12 +47,10 @@ The aim of this project is to detect faces from an image using Haar Cascade Clas
 - Blue points represent Cluster 1.
 - X markers represent centroids.
 - Violet marker represents the template image.
+- To ensure consistent results, the random_state parameter was set in K-Means.
 
----
 
-### Face Detection Output
 
-![Detected Faces](output_faces.jpg)
 
 ---
 
@@ -57,7 +60,8 @@ The aim of this project is to detect faces from an image using Haar Cascade Clas
 - K-Means successfully separated faces into distinct clusters.
 - The template image was correctly classified into its respective cluster.
 - Proper feature scaling improves clustering performance.
-- However, Since K means provides random initial means, everytime there would be a slight difference in clustering but the positioning of template image was altogether.
+- Since K-Means initializes centroids randomly, slight variations in clustering may occur across different runs. However, the template image consistently remained within the same cluster.
+
 
 ---
 

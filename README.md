@@ -47,7 +47,7 @@ The aim of this project is to detect faces from an image using Haar Cascade Clas
 
 ### Face Detection Output
 
-![Detected Faces](output_faces.png)
+![Detected Faces](output_faces.jpg)
 
 ---
 

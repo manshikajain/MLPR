@@ -33,9 +33,10 @@ The aim of this project is to detect faces from an image using Haar Cascade Clas
 
 ## Results & Visualisation
 
-### Cluster Scatter Plot
+### Clustering Plots
 
-![Cluster Plot](images/template_output.png)
+![Clustered Faces Plot](faces_clustered.png)
+![Cluster Scatter Plot](template_output.png)
 
 - Green points represent Cluster 0.
 - Blue points represent Cluster 1.
@@ -46,7 +47,7 @@ The aim of this project is to detect faces from an image using Haar Cascade Clas
 
 ### Face Detection Output
 
-![Detected Faces](images/faces_detected.png)
+![Detected Faces](output_faces.png)
 
 ---
 

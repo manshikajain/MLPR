@@ -81,5 +81,4 @@ The model successfully:
 
 ---
 
-## 📁 Project Structure
 
